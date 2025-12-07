@@ -2,45 +2,25 @@
 <html lang="pl">
 <head>
   <meta charset="UTF-8">
-  <title>Słownik mojego języka</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mój słownik języka</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 40px;
-      max-width: 600px;
-      margin: auto;
-    }
-
-    input {
-      padding: 10px;
-      width: 70%;
-      font-size: 16px;
-    }
-
-    button {
-      padding: 10px 15px;
-      font-size: 16px;
-      margin-left: 5px;
-    }
-
-    #wynik {
-      margin-top: 30px;
-      font-size: 18px;
-      border-top: 1px solid #ccc;
-      padding-top: 20px;
-    }
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f5f5f5; }
+    input { padding: 8px; width: 200px; }
+    button { padding: 8px; }
+    #wynik { margin-top: 20px; font-size: 18px; }
   </style>
 </head>
 <body>
 
-<h1>Słownik</h1>
+  <h1>Mój słownik języka</h1>
 
-<input id="slowo" placeholder="Wpisz słowo">
-<button onclick="szukaj()">Szukaj</button>
+  <input type="text" id="slowo" placeholder="Wpisz słowo">
+  <button onclick="szukaj()">Szukaj</button>
 
-<div id="wynik"></div>
+  <div id="wynik"></div>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
 
